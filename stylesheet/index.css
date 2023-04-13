@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  font-family: "Calibri";
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px 3px black;
+}
+.modal{
+  width: 250px;
+  height: 250px;
+  display: none;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  z-index: 1;
+  top: 40%;
+  left: 15%;
+  position: absolute;
+  padding: 0px 10px;
+  box-shadow: 0px 0px 20px 2px hsl(0, 0%, 0%, 0.5);
+}
+
+/* Heading with menu button*/
+.header-grid {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.headings {
+  margin: 3px;
+}
+
+.motto {
+  font-size: 10px;
+}
+
+.navbar {
+  display: none;
+  flex-direction: column;
+  padding-top: 20px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 220px;
+}
+ 
+ .navbar #close {
+  position: absolute;
+  right: 0px;
+  padding-right: 20px;
+}
+.navbar nav {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  display: block;
+  color: darkgreen;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: burlywood;
+  /* border-bottom: 1px solid black; */
+  padding: 6px;
+}
+/* End of heading with menu */
+
+/* Mudir's Info */
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  /* margin-top: 10px; */
+  background: radial-gradient(circle, white, navy, navy);
+}
+
+figure img{
+  border: 3px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+/* End of Mudir's Info */
+
+/* Main  */
+main{
+  text-align: center;
+}
+
+.bookmarks{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.programmes-list h2{
+  margin: 10px 0px 10px 0px;
+}
+
+.programmes, .about, .contact, .library{
+  width: 250px;
+  height: 230px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 50px auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px;
+}
+
+h3{
+  background-color: greenyellow;
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  padding: 0px 10px 0px 10px;
+  transform: translateY(-40px); /* to move all h3 in the main section to the top of their divs */
+}
+/* End of Main styling */
+
+/* Footer */
+
+footer{
+  text-align: center;
+  height: 80px;
+  padding: 10px 0px 10px 0px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
