@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/MODRASAT LOGO.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="" />
+    <title>MANHALU LUTFI</title>
+    <link rel="stylesheet" href="stylesheet/index.css" />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.css"
+    />
+  </head>
+
+  <body>
+    <div class="modal" id="modal" onload="modal_display()">
+      <p>As-salamu alaikum wa rahmotullahi wa barakatuhu. Welcome to our institution's webpage. Get to know more about us. We're glad to have you here.</p>
+        <button onclick=" exit()" class="close">Close</button>
+    </div>
+    <header>
+      <div class="header-grid">
+        <img
+          class="logo"
+          src="assets/images/MODRASAT LOGO.jpg"
+          alt="MANHALU LOGO"
+          width="80px"
+          height="80px"
+        />
+        <div class="headings" lang="ar">
+          <h2><bdo dir="rtl">منهل اللطف والغنى</bdo></h2>
+          <h5>MONIALU-LUTFI WAL-GINAH</h5>
+          <h4><bdo dir="rtl">شعارنا: اطلب العلم ولركان في صين</bdo></h4>
+          <p class="motto">
+            <b>Motto: Search for knowledge even if it is in China</b>
+          </p>
+        </div>
+        <i class="fas fa-bars fa-2xl" id="menu" onclick="menu()"></i>
+      </div>
+      <!-- <audio src="AUD-20230208-WA0000.mp3" autoplay></audio> -->
+      <!-- Navigation Section  -->
+      <section class="navbar" id="navbar">
+        <i class="fas fa-times fa-2xl" id="close" onclick="menu_exit()"></i>
+        <nav>
+          <a href="#">HOME</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">CONTACT US</a>
+          <a href="#">LIBRARY</a>
+          <a href="#">WHAT DO WE OFFER?</a>
+          <!-- <a href="#">COURSES</a>
+          <a href="#">CLASSES</a>
+          <a href="#">DONATIONS</a> -->
+          <a href="#">NEWS</a>
+          <a href="#">EVENTS</a>
+        </nav>
+      </section>
+    </header>
+    <hr />
+    <main>
+      <section class="mudir-info">
+        <div class="info-card">
+          <figure>
+            <img
+              class="mudir"
+              src="assets/images/Mudir.jpg"
+              alt="Mudir of the modrasat"
+              width="120px"
+              height="auto"
+            />
+            <figcaption>Fadeelatu Sheik Abdul-Lateef Abdul-Azeez</figcaption>
+            <p><b>Proprietor</b></p>
+          </figure>
+        </div>
+        <!-- <div class="description">
+                <p>A man of high prestige with knowledge and fluency in different languages. A man who has devoted
+                    himself to the work of Allah, through the process of searching for knowledge and impacting young
+                    ones with it.
+                </p>
+            </div> -->
+        <section class="bookmarks">
+          <section class="programmes-list">
+            <h2>PROGRAMMES AVAILABLE</h2>
+            <div class="programmes">
+              <h3>Beginners</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                corrupti veniam laudantium saepe molestiae repellat totam hic,
+                doloribus, nobis ipsum sapiente consequuntur. Repellendus totam
+                corrupti sit iusto consequuntur nisi culpa!
+              </p>
+            </div>
+            <div class="programmes">
+              <h3>Intermediate</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                corrupti veniam laudantium saepe molestiae repellat totam hic,
+                doloribus, nobis ipsum sapiente consequuntur. Repellendus totam
+                corrupti sit iusto consequuntur nisi culpa!
+              </p>
+            </div>
+            <div class="programmes">
+              <h3>Advanced</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum
+                corrupti veniam laudantium saepe molestiae repellat totam hic,
+                doloribus, nobis ipsum sapiente consequuntur. Repellendus totam
+                corrupti sit iusto consequuntur nisi culpa!
+              </p>
+            </div>
+          </section>
+        </section>
+        <section class="about">
+          <h3>ABOUT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            eos eligendi exercitationem. Quia nulla corporis, rerum maiores
+            deserunt reprehenderit sit in laborum iste, hic perspiciatis iusto
+            repellendus ex nemo fugiat!
+          </p>
+        </section>
+        <section class="contact">
+          <h3>CONTACT US</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab omnis
+            adipisci nulla, aspernatur aliquam aut exercitationem assumenda
+            officiis consectetur blanditiis soluta, voluptate voluptas. Alias
+            possimus aliquam blanditiis! Dicta, tenetur culpa.
+          </p>
+        </section>
+        <section class="library">
+          <h3>LIBRARY</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab omnis
+            adipisci nulla, aspernatur aliquam aut exercitationem assumenda
+            officiis consectetur blanditiis soluta, voluptate voluptas. Alias
+            possimus aliquam blanditiis! Dicta, tenetur culpa.
+          </p>
+        </section>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>&copy; MONIALU-LUTFI WAL-GINAH 2023</p>
+      <address>
+        4, Alhaji Shittu Street, Odonla Road, Odogunyan, Ikorodu, Lagos.
+      </address>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
