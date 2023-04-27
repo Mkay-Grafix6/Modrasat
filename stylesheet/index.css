@@ -14,15 +14,15 @@ body {
 }
 
 button {
-    background-color: black;
-    color: white;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 2px 2px 3px 3px black;
+  background-color: black;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 3px 3px black;
 }
-.modal{
+/* .modal {
   width: 250px;
   height: 250px;
   display: none;
@@ -36,19 +36,25 @@ button {
   margin: 0 auto;
   z-index: 1;
   top: 40%;
-  right: 40%;
+  left: 15%;
   position: absolute;
   padding: 0px 10px;
   box-shadow: 0px 0px 20px 2px hsl(0, 0%, 0%, 0.5);
-}
+} */
 
 /* Heading with menu button*/
+header {
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+}
 .header-grid {
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
   padding: 3px;
+  background-color: azure;
 }
 
 .headings {
@@ -67,15 +73,19 @@ button {
   right: 0px;
   top: 0px;
   width: 220px;
+  margin-top: 30px;
 }
- 
- .navbar #close {
+
+.navbar #close {
   position: absolute;
   right: 0px;
+  /* margin-top: 10px; */
+  transform: translateY(-10px);
+  margin-bottom: 20px;
   padding-right: 20px;
 }
 .navbar nav {
-  margin: 20px 10px;
+  margin: 40px 10px;
   display: flex;
   flex-direction: column;
 }
@@ -94,7 +104,7 @@ nav a {
 /* End of heading with menu */
 
 /* Mudir's Info */
-figure{
+figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,7 +115,7 @@ figure{
   background: radial-gradient(circle, white, navy, navy);
 }
 
-figure img{
+figure img {
   border: 3px solid white;
   padding: 5px;
   border-radius: 50%;
@@ -114,50 +124,56 @@ figure img{
 /* End of Mudir's Info */
 
 /* Main  */
-main{
+main {
   text-align: center;
 }
 
-.bookmarks{
+.bookmarks {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.programmes-list h2{
+.programmes-list h2 {
   margin: 10px 0px 10px 0px;
 }
 
-.programmes, .about, .contact, .library{
-  width: 250px;
-  height: 230px;
+.programmes,
+.about,
+.contact,
+.library {
+  width: 220px;
+  height: 200px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-color: white;
-  margin: 50px auto 20px auto;
+  margin: 30px auto auto auto;
+  padding: 0px 10px 0px 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 1px;
 }
 
-h3{
+h3 {
   background-color: greenyellow;
   height: 30px;
   width: 150px;
   border-radius: 20px;
   padding: 0px 10px 0px 10px;
-  transform: translateY(-40px); /* to move all h3 in the main section to the top of their divs */
+  /* transform: translateY(-20px); to move all h3 in the main section to the top of their divs */
+  margin: -10px 0px 0px 0px;
 }
 /* End of Main styling */
 
 /* Footer */
 
-footer{
+footer {
   text-align: center;
   height: 80px;
   padding: 10px 0px 10px 0px;
   box-sizing: border-box;
   background-color: black;
   color: white;
+  margin: 5px auto auto auto;
 }
